@@ -1,0 +1,33 @@
+body {
+    display: block;
+    background-color: rgb(124, 68, 161);
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    color: white;
+    
+}
+
+
+
+input::placeholder {
+    color: black;
+   
+}
+
+fieldset {
+    border: black;
+}
+
+input {
+    text-align: center;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: pink;
+    }
+
+    .button {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
